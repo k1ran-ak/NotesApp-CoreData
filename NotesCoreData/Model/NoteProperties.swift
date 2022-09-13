@@ -18,7 +18,7 @@ public class Note: NSManagedObject, Identifiable {
     @NSManaged public var id: String!
     @NSManaged public var body: String!
     @NSManaged public var title: String!
-    @NSManaged public var image: Data!
+    @NSManaged public var image: Data?
 }
 
 
